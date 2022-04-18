@@ -277,6 +277,10 @@ def char_allocation(clause_data,property_cndtn_data,class_data,UOM,UOM1, desc_cl
 
 
 
+
+
+
+
 # dff['Long Description_r'] = dff.apply(lambda x: x['Long Description'].replace(x['Class'], '').replace(x['Prop_Name'], '').replace(x['Prop_Val'], '').replace(x['uom'], ''), axis = 1)
 
 
